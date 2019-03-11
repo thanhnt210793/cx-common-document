@@ -16,11 +16,14 @@ import {
   MatExpansionModule
 } from '@angular/material';
 
-import { NavHeaderComponent } from './nav-header/nav-header.component';
-import { NavFooterComponent } from './nav-footer/nav-footer.component';
+import { NavHeaderComponent } from './shared/nav-header/nav-header.component';
+import { NavFooterComponent } from './shared/nav-footer/nav-footer.component';
 import { ComponentsModule } from './components/components.module';
-import { NavLeftComponent } from './nav-left/nav-left.component';
-import { DocsViewerComponent } from './docs-viewer/docs-viewer.component';
+import { NavLeftComponent } from './shared//nav-left/nav-left.component';
+import { DocsViewerComponent } from './shared/docs-viewer/docs-viewer.component';
+import { TableOfContentComponent } from './shared/table-of-content/table-of-content.component';
+import { ButtonComponent } from './components/button/button.component';
+
 
 @NgModule({
   declarations: [
@@ -28,7 +31,9 @@ import { DocsViewerComponent } from './docs-viewer/docs-viewer.component';
     NavHeaderComponent,
     NavFooterComponent,
     NavLeftComponent,
-    DocsViewerComponent
+    DocsViewerComponent,
+    TableOfContentComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,

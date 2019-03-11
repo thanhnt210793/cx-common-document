@@ -10,7 +10,7 @@ import { ComponentsDetailComponent } from './components-detail/components-detail
     ],
     declarations: [
         ComponentsComponent,
-        ComponentsDetailComponent,
+        ComponentsDetailComponent
     ],
     providers: [
     ],
