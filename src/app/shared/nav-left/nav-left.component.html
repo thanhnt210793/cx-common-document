@@ -10,113 +10,68 @@
         </mat-expansion-panel-header>
 
         <nav>
-          <ul
-            class="ng-tns-c14-25 ng-trigger ng-trigger-bodyExpansion"
-            id="panel-forms"
-            style="display: block;"
-          >
+          <ul class="ng-tns-c14-25 ng-trigger ng-trigger-bodyExpansion" id="panel-forms" style="display: block;">
             <!---->
             <li class="ng-tns-c14-25 ">
-              <a class="ng-tns-c14-25" [routerLink]="['/components', 'button']" routerLinkActive="active">Button</a
-              >
+              <a class="ng-tns-c14-25" [routerLink]="['/components', 'button']" routerLinkActive="active">Button</a>
             </li>
             <li class="ng-tns-c14-25 ">
-              <a class="ng-tns-c14-25" (click)="onComponentClick('input')">Input</a
-              >
+              <a class="ng-tns-c14-25" [routerLink]="['/components', 'hierarchical-tree']" routerLinkActive="active">hierarchical tree</a>
             </li>
             <li class="ng-tns-c14-25 ">
-              <a
-                class="ng-tns-c14-25"
-                routerlinkactive="docs-component-viewer-sidenav-item-selected"
-                href="/components/datepicker"
-                >Check box</a
-              >
+                <a class="ng-tns-c14-25" [routerLink]="['/components', 'hierarchical-tree']" routerLinkActive="active">hierarchical tree mix</a>
+              </li>
+            <li class="ng-tns-c14-25 ">
+              <a class="ng-tns-c14-25" [routerLink]="['/components', 'check-box']" routerLinkActive="active">Check box</a>
             </li>
           </ul>
         </nav>
       </mat-expansion-panel>
       <mat-expansion-panel [expanded]="true">
-        <mat-expansion-panel-header>
-          <mat-panel-title>
-            Buttons & Indicators
-          </mat-panel-title>
-        </mat-expansion-panel-header>
-
-        <nav>
-          <ul
-            class="ng-tns-c14-25 ng-trigger ng-trigger-bodyExpansion"
-            id="panel-forms"
-            style="display: block;"
-          >
-            <!---->
-            <li class="ng-tns-c14-25 ">
-              <a
-                class="ng-tns-c14-25"
-                routerlinkactive="docs-component-viewer-sidenav-item-selected"
-                href="/components/autocomplete"
-                >Button</a
-              >
-            </li>
-            <li class="ng-tns-c14-25 ">
-              <a
-                class="ng-tns-c14-25"
-                routerlinkactive="docs-component-viewer-sidenav-item-selected"
-                href="/components/checkbox"
-                >Input</a
-              >
-            </li>
-            <li class="ng-tns-c14-25 ">
-              <a
-                class="ng-tns-c14-25"
-                routerlinkactive="docs-component-viewer-sidenav-item-selected"
-                href="/components/datepicker"
-                >Check box</a
-              >
-            </li>
-          </ul>
-        </nav>
-      </mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Navigation
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+  
+          <nav>
+            <ul class="ng-tns-c14-25 ng-trigger ng-trigger-bodyExpansion" id="panel-forms" style="display: block;">
+              <!---->
+              <li class="ng-tns-c14-25 ">
+                <a class="ng-tns-c14-25" [routerLink]="['/components', 'header']" routerLinkActive="active">Menu Header</a>
+              </li>
+              <li class="ng-tns-c14-25 ">
+                <a class="ng-tns-c14-25" [routerLink]="['/components', 'tab-navigation']" routerLinkActive="active">Tab Navigation</a>
+              </li>
+              <li class="ng-tns-c14-25 ">
+                <a class="ng-tns-c14-25" [routerLink]="['/components', 'tab-navigation']" routerLinkActive="active">Pipe</a>
+              </li>
+            </ul>
+          </nav>
+        </mat-expansion-panel>
       <mat-expansion-panel [expanded]="true">
         <mat-expansion-panel-header>
           <mat-panel-title>
-            Navigation
+            Indicators
           </mat-panel-title>
         </mat-expansion-panel-header>
 
         <nav>
-          <ul
-            class="ng-tns-c14-25 ng-trigger ng-trigger-bodyExpansion"
-            id="panel-forms"
-            style="display: block;"
-          >
+          <ul class="ng-tns-c14-25 ng-trigger ng-trigger-bodyExpansion" id="panel-forms" style="display: block;">
             <!---->
             <li class="ng-tns-c14-25 ">
-              <a
-                class="ng-tns-c14-25"
-                routerlinkactive="docs-component-viewer-sidenav-item-selected"
-                href="/components/autocomplete"
-                >Button</a
-              >
+              <a class="ng-tns-c14-25"  [routerLink]="['/components', 'date-picker']" routerLinkActive="active">Date picker</a>
             </li>
             <li class="ng-tns-c14-25 ">
-              <a
-                class="ng-tns-c14-25"
-                routerlinkactive="docs-component-viewer-sidenav-item-selected"
-                href="/components/checkbox"
-                >Input</a
-              >
+              <a class="ng-tns-c14-25"  [routerLink]="['/components', 'serach-box']" routerLinkActive="active">Search box</a>
             </li>
             <li class="ng-tns-c14-25 ">
-              <a
-                class="ng-tns-c14-25"
-                routerlinkactive="docs-component-viewer-sidenav-item-selected"
-                href="/components/datepicker"
-                >Check box</a
-              >
+              <a class="ng-tns-c14-25"  [routerLink]="['/components', 'alert']" routerLinkActive="active">Alert</a>
             </li>
           </ul>
         </nav>
       </mat-expansion-panel>
+      
     </div>
   </div>
 </div>

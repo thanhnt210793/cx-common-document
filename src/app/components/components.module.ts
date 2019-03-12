@@ -1,7 +1,6 @@
 import { ComponentsComponent } from './components-page/components.container.component';
 import { ComponentsRoutingModule } from './components-routing.module';
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
-import { ComponentsDetailComponent } from './components-detail/components-detail.component';
 
 
 @NgModule({
@@ -9,8 +8,7 @@ import { ComponentsDetailComponent } from './components-detail/components-detail
         ComponentsRoutingModule
     ],
     declarations: [
-        ComponentsComponent,
-        ComponentsDetailComponent
+        ComponentsComponent
     ],
     providers: [
     ],

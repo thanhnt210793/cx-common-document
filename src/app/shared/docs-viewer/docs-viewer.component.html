@@ -4,19 +4,10 @@
       <div class="docs-component-view-text-content">
         <ng-content select="[contentFirst]"></ng-content>
       </div>
-      <div class="docs-toc-container">
-        <cx-table-of-content>
-          <ng-content></ng-content>
-        </cx-table-of-content>
-      </div>
     </mat-tab>
     <mat-tab [label]="'Api'">
       <div class="docs-component-view-text-content">
         <ng-content select="[contentSecond]"></ng-content>
-      </div>
-      <div class="docs-toc-container">
-        <cx-table-of-content></cx-table-of-content>
-        <ng-content select="[tocSecond]"></ng-content>
       </div>
     </mat-tab>
     <mat-tab [label]="'Example'">
@@ -26,17 +17,3 @@
     </mat-tab>
   </mat-tab-group>
 </div>
-
-
-
-
-
-
-  <!-- <mat-tab-group>
-    <mat-tab label="Overview">
-      <cx-button [closeable]="true" [type]="'primary'" size="sm" 
-      (clicked)="onBtnClicked($event)" (closed)="onBtnClosed($event)">Test button</cx-button>
-    </mat-tab>
-    <mat-tab label="Api"> Content 2 </mat-tab>
-    <mat-tab label="Example"> Content 3 </mat-tab>
-  </mat-tab-group> -->

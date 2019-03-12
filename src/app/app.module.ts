@@ -23,7 +23,7 @@ import { NavLeftComponent } from './shared//nav-left/nav-left.component';
 import { DocsViewerComponent } from './shared/docs-viewer/docs-viewer.component';
 import { TableOfContentComponent } from './shared/table-of-content/table-of-content.component';
 import { ButtonComponent } from './components/button/button.component';
-
+import { HierarchicalTreeDocComponent } from './components/hierarchical-tree/hierarchical-tree.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +33,8 @@ import { ButtonComponent } from './components/button/button.component';
     NavLeftComponent,
     DocsViewerComponent,
     TableOfContentComponent,
-    ButtonComponent
+    ButtonComponent,
+    HierarchicalTreeDocComponent
   ],
   imports: [
     BrowserModule,
@@ -49,7 +50,7 @@ import { ButtonComponent } from './components/button/button.component';
     HttpModule,
     HttpClientModule,
     ComponentsModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
